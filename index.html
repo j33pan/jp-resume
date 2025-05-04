@@ -3,202 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>April Juejie Pan - Full Stack Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <title>April Pan Resume</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.4;
     }
-
     .container {
-      max-width: 760px;
+      max-width: 750px;
       margin: 0 auto;
       padding: 16px;
-      background-color: #fff;
     }
-
     h1 {
       font-size: 22px;
-      font-weight: 700;
-      text-align: center;
-      color: #2c3e50;
-      margin: 0;
+      margin: 0 0 8px;
     }
-
-    .contact-info {
+    h2, h3 {
+      margin: 12px 0 4px;
+    }
+    .section-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 16px;
+      border-bottom: 1px solid #ccc;
       font-size: 13px;
-      text-align: center;
-      margin-top: 4px;
-      margin-bottom: 8px;
     }
-
-    .contact-info p {
-      margin: 2px 0;
+    ul {
+      margin: 4px 0 8px 20px;
+      padding: 0;
     }
-
-    h2 {
-      font-size: 16px;
-      font-weight: 600;
-      color: #34495e;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 2px;
-      margin: 12px 0 6px;
-    }
-
-    h3 {
-      font-size: 14px;
-      font-weight: 600;
-      margin: 6px 0 2px;
-    }
-
-    p {
-      font-size: 13px;
-      margin: 0 0 4px;
-    }
-
-    ul, ol {
-      padding-left: 18px;
-      margin: 0 0 4px;
-    }
-
     li {
-      font-size: 13px;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
-
-    .section {
-      margin-bottom: 10px;
+    .contact {
+      margin-bottom: 12px;
     }
-
-    .project-item {
-      margin-bottom: 6px;
-    }
-
-    .skills-section ul {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      gap: 4px;
-      padding-left: 0;
-      margin: 0;
-    }
-
-    .skills-section li {
-      background-color: #3498db;
-      color: #fff;
-      padding: 2px 4px;
+    .contact a {
+      display: inline-block;
+      margin-right: 8px;
+      padding: 4px 8px;
+      border: 1px solid #ccc;
       border-radius: 4px;
-      font-size: 12px;
-    }
-
-    .education-section p {
-      font-size: 13px;
-      margin: 2px 0;
-    }
-
-    a {
-      color: #3498db;
       text-decoration: none;
+      color: #333;
+      font-size: 13px;
     }
-
-    a:hover {
-      text-decoration: underline;
+    .contact a:hover {
+      background-color: #f0f0f0;
     }
-
-    @media (max-width: 600px) {
-      .container {
-        padding: 12px;
-      }
-
-      .skills-section ul {
-        flex-direction: column;
-      }
-
-      .skills-section li {
-        margin: 2px 0;
-      }
+    .contact a span {
+      margin-right: 4px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>April Juejie Pan</h1>
-    <div class="contact-info">
-      <p>📧 panapril77@gmail.com | 💻 <a href="https://github.com/j33pan">GitHub</a></p>
-    </div>
 
-    <h2>Summary</h2>
-    <p>Experienced Full Stack Engineer with 6+ years in software development, specializing in both frontend and backend technologies. Proficient in building scalable, high-performance applications using modern frameworks, cloud services, and databases. Adept at designing and optimizing user-centric solutions in fast-paced environments.</p>
+<div class="container">
+  <h1>April (Juejie) Pan</h1>
+  <p class="contact">
+    <a href="mailto:panapril77@gmail.com"><span>📧</span>panapril77@gmail.com</a>
+    <a href="https://www.linkedin.com/in/april-juejie-pan-6706a8164/" target="_blank"><span>🔗</span>LinkedIn</a>
+    <a href="https://github.com/j33pan" target="_blank"><span>💻</span>GitHub</a>
+  </p>
 
-    <h2>Key Skills</h2>
-    <div class="skills-section">
-      <ul>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Flask</li>
-        <li>Vue.js</li>
-        <li>React</li>
-        <li>Angular</li>
-        <li>ASP.NET</li>
-        <li>PostgreSQL</li>
-        <li>MySQL</li>
-        <li>AWS</li>
-        <li>GCP</li>
-      </ul>
-    </div>
+  <div class="section-title">Summary</div>
+  <p>6 years full stack experience with a backend focus. Skilled in designing scalable systems with AWS, Python, Vue.js, and PostgreSQL. Lead end-to-end projects, optimize performance, and collaborate cross-functionally.</p>
 
-    <h2>Professional Experience</h2>
-    <div class="section">
-      <h3>Software Engineer</h3>
-      <p>PartnerStack – Remote | Jul 2021 – Present</p>
-      <ul>
-        <li>Implemented full-text + trigram search with SQLAlchemy, turning underused search into the platform’s most-used feature; improved outreach and partner engagement by 50%.
-        </li>
-        <li>Designed and launched a seamless partner invitation system, closing the loop in the partner-vendor ecosystem and increasing program opt-ins by 50%.
-        </li>
-        <li>Led several cross-functional features end-to-end: scoping, backend/infra design, frontend development, and QA. Collaborated directly with product, design, and data teams to ship customer-facing features faster, increasing team velocity.
-        </li>
-        <li>Coordinated a seamless Python upgrade, initiating a canary release followed by full deployment in collaboration with stakeholders.</li>
-      </ul>
-      <h3>Software Developer</h3>
-      <p>Edisoft Inc. – North York, ON | Jul 2019 – Jan 2021</p>
-      <ul>
-        <li>Modernized legacy warehouse system using ASP.NET Core + Angular.</li>
-        <li>Improved performance by 25% via caching and profiling.</li>
-        <li>Built inventory system for 10k+ SKUs, reducing overhead.</li>
-        <li>Automated workflows, hitting 100% customer satisfaction.</li>
-      </ul>
-    </div>
+  <div class="section-title">Skills</div>
+  <p><strong>Languages:</strong> Python, JavaScript/TypeScript, C#, C++</p>
+  <p><strong>Frameworks:</strong> Vue.js, Flask, ASP.NET Core, Angular, React</p>
+  <p><strong>Cloud:</strong> AWS (Lambda, DynamoDB, S3, API Gateway, Cognito), GCP (BigQuery, Airflow)</p>
+  <p><strong>Databases:</strong> PostgreSQL, DynamoDB</p>
 
-    <h2>Projects</h2>
-    <div class="section">
-      <div class="project-item">
-        <h3>AI Image Store <a href="https://master.d1iz0hokpn5bie.amplifyapp.com" target="_blank">[Website]</a></h3>
-        <p>Built a full-stack e-commerce platform with Vue 3 for the frontend, using AWS Lambda for serverless backend processing and DynamoDB for scalable storage. Integrated AWS Cognito for user authentication, Stripe for secure payments, and S3 for file storage. Deployed on AWS Amplify for continuous integration and seamless scalability.</p>
-    </div>
-      <div class="project-item">
-        <h3>Online Cake Store <a href="https://github.com/j33pan/jjpnst" target="_blank">[GitHub]</a></h3>
-        <p>React frontend integrated with a GraphQL API powered by AWS AppSync. Utilized AWS Amplify for hosting and backend infrastructure management. Designed for responsive performance and seamless data handling across components.</p>
-    </div>
-      <div class="project-item">
-        <h3>Recipe Website <a href="https://j33pan.github.io/not-so-sweet" target="_blank">[Website]</a></h3>
-        <p>Recipe-sharing site using Sanity CMS and Edamam API for search.</p>
-      </div>
-    </div>    
+  <div class="section-title">Experience</div>
 
-    <h2>Education</h2>
-    <div class="education-section">
-      <p>University of Waterloo</p>
-      <p>Bachelor of Applied Science – Computer Engineering | Sept 2015 – Apr 2019</p>
-    </div>
-  </div>
+  <h3>PartnerStack – Software Engineer</h3>
+  <p><em>Jul 2021 – Present, Toronto</em></p>
+  <ul>
+    <li>Led and delivered full-stack projects using Flask, PostgreSQL, Vue.js, Airflow, BigQuery.</li>
+    <li>Revamped search with PostgreSQL full-text search (multi-keyword, fuzzy, multilingual), increasing usage from 0% to 100%.</li>
+    <li>Designed team ranking algorithm (log scale + step bin) to replace inefficient commission sort, improving speed by 37%.</li>
+    <li>Implemented Python upgrade via canary release to reduce deployment risk.</li>
+    <li>Collaborated on ML-based vendor-team recommender using BigQuery + Airflow pipeline (WIP).</li>
+    <li>Pushed back on specs to ensure better UX, performance, and maintainability.</li>
+  </ul>
+
+  <h3>Edisoft Inc. – Software Developer</h3>
+  <p><em>Jul 2019 – Jan 2021, Toronto</em></p>
+  <ul>
+    <li>Migrated legacy C++ WMS to ASP.NET Core + Angular web platform.</li>
+    <li>Built inventory management (10k+ SKUs) in .NET MVC app, improving warehouse efficiency.</li>
+    <li>Improved system usability and performance for warehouse staff.</li>
+  </ul>
+
+  <div class="section-title">Projects</div>
+
+  <div class="project">
+    <h3>Lilith App — Personal Project</h3>
+    <p>
+        <a class="demo-link" href="https://master.d1iz0hokpn5bie.amplifyapp.com/" target="_blank">
+            🌐 Live Demo
+        </a>
+    </p>
+    <ul>
+        <li class="list-item">Developed and deployed an immersive, interactive mobile app for showcasing original character Lilith using Vue.js and AWS serverless stack.</li>
+        <!-- rest of the bullets -->
+    </ul>
+</div>
+
 </body>
 </html>
